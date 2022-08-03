@@ -1,0 +1,123 @@
+@font-face {
+    font-family: P130Font;
+    src: url(../fonts/SquarePeg-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: P130Font2;
+    src: url(../fonts/Kanit-Bold.ttf);
+ }
+
+
+.header p {
+    /* text-transform: uppercase;
+    text-align: justify;
+    text-decoration: underline red double; */
+    text-align: center;
+    /* line-height: 50px; */
+    /* word-spacing: 50px; */
+    /* text-shadow: 2px 2px 4px #000000; */
+    font-size: 25px;
+    /* font-family: P130Font2; */
+    font-family: P130Font2;
+    
+}
+
+.header {
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    padding: 2px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.main-line {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 500px;
+    height: 4px;
+    background-color: red;
+
+}
+
+.header .students{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+body{
+    /* font-family: 'Mouse Memoirs', sans-serif; */
+    font-family: P130Font;
+}
+
+/* 
+p::after {
+    content: "---------------";
+}
+
+p::before {
+    content: "---------------";
+} */
+
+.icon{
+    margin: 100px;
+    padding-left: 15px;
+}
+
+.icons i{
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icons i:nth-child(1){
+    color: red;
+}
+
+.icons i:nth-child(2){
+    color: green;
+}
+
+.icons i:nth-child(3){
+    color: gray;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .info{
+    width: 150px;
+    height: 30px;
+    background-color: aqua;
+    margin-right: 20px;
+    display: none;
+  }
+
+  .info span a{
+    text-decoration: none;
+    font-size: 20px ;
+  }
+
+  .icons:hover .info{
+  display: block;
+  }
